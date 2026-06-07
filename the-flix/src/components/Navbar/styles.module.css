@@ -1,6 +1,6 @@
 .navbarContainerBlack {
     background-color: #111;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;  
 }
 .navbarContainer {
     position: fixed;
@@ -9,7 +9,7 @@
     width: 100%;
     height: auto; 
     z-index: 1000;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 .navbar {
     display: flex;

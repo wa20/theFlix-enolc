@@ -1,8 +1,5 @@
-
-  .homeScreen {
-    color: #fff;
-    height: 100vh;
-    margin-top: 110px; 
-
-  }
-  
+.homeScreen {
+  color: #fff;
+  background-color: #111;
+  min-height: 100vh;
+}
