@@ -1,5 +1,7 @@
 
   .homeScreen {
-    color: '#dddddd',
+    display: 'flex';
+    flex-direction: 'column';
+    color: '#dddddd';
   }
   

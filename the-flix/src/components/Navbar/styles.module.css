@@ -1,0 +1,36 @@
+
+.navbarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 'auto';
+    background-color: #111;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.avatar {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}

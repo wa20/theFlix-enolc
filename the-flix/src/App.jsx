@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import HomeScreen from './components/HomeScreen/HomeScreen'
-import './App.css'
+// import './App.css'
 
 function App() {
 
