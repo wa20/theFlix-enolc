@@ -52,6 +52,8 @@
 
 body {
   margin: 0;
+  background-color: #111;
+  color: #fff;
 }
 
 #root {
@@ -104,3 +106,5 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+

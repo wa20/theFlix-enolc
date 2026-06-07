@@ -46,11 +46,10 @@ function Banner() {
                 <button className={styles.myListButton}>My List</button>
             </div>
             <div className={styles.bannerDescription}>
-                {truncate(movie?.overview, 120)}
+                {truncate(movie?.overview, 150)}
             </div>
         </div>
         <div className={styles.bannerFadeBottom} />
-
     </header>
     
   )
