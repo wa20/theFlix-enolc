@@ -1,9 +1,7 @@
 .bannerContainer {
-  height: 400px;
+  height: 448px;
   position: relative;
-  color: 'white';
-  object-fit: contain;
-  /* background-image: url('/src/assets/hero.png'); */
+  color: white;
 }
 
 .bannerContents {
