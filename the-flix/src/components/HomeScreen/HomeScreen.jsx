@@ -1,19 +1,19 @@
 // import React from 'react'
-import { useStyles } from './styles'
+import styles from './styles.module.css'
+import Navbar from '../Navbar/Navbar'
 
 
 function HomeScreen() {
 
- const { classes } = useStyles()
-
   return (
-    <div className={classes.homeScreen}>
-      {/* Nav */}
+    <div className={styles.homeScreen}>
+      <Navbar />
 
       {/* Hero/Banner */}
 
       {/* Row */}
-      HomeScreen
+
+       Lets Build The Flix List
     </div>
   )
 }

@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <section id="center">
-       Lets Build The Flix List
        <HomeScreen />
       </section>
     </>
