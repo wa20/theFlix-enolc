@@ -48,6 +48,8 @@
 .loginScreenBody {
     position: absolute;
     top: 30%;
+    left: 0;
+    right: 0;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
@@ -77,8 +79,13 @@
 .loginScreenInput {
     margin: 20px;
 }
+.loginScreenInput > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .loginScreenInput > form > input {
-    padding: 10px;
+    padding: 11px;
     outline-width: 0;
     height: 30px;
     width: 30%;
