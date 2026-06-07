@@ -1,7 +1,8 @@
 
   .homeScreen {
-    display: 'flex';
-    flex-direction: 'column';
-    color: '#dddddd';
+    color: #fff;
+    height: 100vh;
+    margin-top: 110px; 
+
   }
   
